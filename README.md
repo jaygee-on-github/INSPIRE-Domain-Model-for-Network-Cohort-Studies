@@ -7,7 +7,7 @@ The INSPIRE domain model for network cohort studies was initially funded by [Wor
 It is WP7 which was charged with developing a FAIR model for population health research. WP7, in turn, contributes to WP2 -- the [Cross-Domain Interoperability Framework](https://github.com/Cross-Domain-Interoperability-Framework (CDIF). CDIF culls domain-specific schema.org JSON-LD metadata models.
 
 ## Scope
-Using schemas from [schema.org](https://schema.org) with JSON-LD, INSPIRE has constructed a domain model that is being used to conduct a ***network cohort study***. In a network cohort study the data stays at home while the ***study definition*** and one or more ***data analysis workbenches*** that execute the study definition are shared.
+Using schemas from [schema.org](https://schema.org) with JSON-LD, INSPIRE has constructed a domain model that is being used to conduct a ***network cohort study***. In a network cohort study the data stays at home with ministries and/or universities and/or research organizations that own the data while the ***study definition*** and one or more ***data analysis workbenches*** that execute the study definition are shared.
 
 In the INSPIRE domain model the study definition has two parts. In the first part called the ***study scope*** independent and dependent variables are enumerated. Independent variables are exposures and interventions (medical and/or public health). Dependent variables are health conditions. In the second part called the ***study design***, the independent and dependent variables are mapped to ***target*** and ***outcome*** cohorts in that order.
 
