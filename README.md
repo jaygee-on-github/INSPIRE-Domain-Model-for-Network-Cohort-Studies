@@ -2,7 +2,7 @@
 ## Background
 The INSPIRE domain model for network cohort studies was initially funded by [WorldFAIR](https://codata.org/initiatives/decadal-programme2/worldfair/).
 
-<div><img width="404" alt="image" class="center" src="https://github.com/jaygee-on-github/INSPIRE-Domain-Model-for-Network-Cohort-Studies/assets/137520893/1bf67dae-3073-45e0-bb8e-06342457836d"></div>
+<div><img width="404" alt="image" src="https://github.com/jaygee-on-github/INSPIRE-Domain-Model-for-Network-Cohort-Studies/assets/137520893/1bf67dae-3073-45e0-bb8e-06342457836d"></div>
 
 It is WP7 which was charged with developing a FAIR model for population health research. WP7, in turn, contributes to WP2 -- the [Cross-Domain Interoperability Framework](https://github.com/Cross-Domain-Interoperability-Framework (CDIF). CDIF culls domain-specific schema.org JSON-LD metadata models.
 
