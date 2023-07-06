@@ -17,7 +17,7 @@ Right now the INSPIRE domain model works with the [OHDSI data analysis workbench
 ## Upper Model 
 ### WHO Integrated Disease Surveillance and Response (IDSR) use case
 ![MedicalObservationalStudy-18](https://github.com/jaygee-on-github/INSPIRE-Domain-Model-for-Network-Cohort-Studies/assets/137520893/acad6749-e547-44de-8f50-e5c553a8c45f)
-
+The upper model is comparable to an outline of the domain model for network studies. Based on the upper model, there are profiles -- one for each data anaysis workbench. A profile individualizes the upper model so it can interface with a target workbench. Currently, INSPIRE is in the process of completing a profile that goes with the OHDSI data analysis workbench.
 
 
 
