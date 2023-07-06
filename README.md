@@ -16,7 +16,9 @@ The study definition, in turn, interfaces with one or more data analysis workben
 Right now the INSPIRE domain model works with the [OHDSI data analysis workbench](https://www.ohdsi.org/software-tools/). It runs on top of the data that stays at home once data has been formatted in line with the [OMOP CDM](https://www.ohdsi.org/data-standardization/). There is a second data analysis workbench called [I-DAIR](https://www.i-dair.org) that is learning to run on top of an OMOP CDM. It is an African-led initiative. It is more ***codeless*** than the OHDSI data analysis workbench. The INSPIRE domain model is learning to interface with the I-DAIR data analysis workbench too.
 ## Upper Model 
 ### WHO Integrated Disease Surveillance and Response (IDSR) use case
-![MedicalObservationalStudy-16](https://github.com/jaygee-on-github/INSPIRE-Domain-Model-for-Network-Cohort-Studies/assets/137520893/637ff30d-e048-4888-9318-0ec9281b8221)
+![MedicalObservationalStudy-18](https://github.com/jaygee-on-github/INSPIRE-Domain-Model-for-Network-Cohort-Studies/assets/137520893/acad6749-e547-44de-8f50-e5c553a8c45f)
+
+
 
 
 
