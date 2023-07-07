@@ -21,7 +21,7 @@ In the INSPIRE domain model, the study definition has two parts. In the first pa
 
 In the second part of the model called the ***study design***, the independent and dependent variables are mapped to ***target*** and ***outcome*** cohorts in that order. 
 
-The study definition, in turn, interfaces with one or more data analysis workbenches. Using these cohort definitions as building blocks, they may conduct several types of analyses including characterization, causal analyses of the effects of clinical and/or public health interventions and patient-level prediction. 
+The study definition, in turn, interfaces with one or more data analysis workbenches. Using these cohort definitions as building blocks, they may conduct several types of analyses including descriptive analysis (characterization), emulated clinical and field trials (causal analyses of the effects of clinical and/or public health interventions) and patient-level prediction. 
 
 The workbenches run the study. They are platform independent which means that the workbenches can run in multiple cloud environments and/or locally in an organization's private network.
 
