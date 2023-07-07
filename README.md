@@ -1,6 +1,6 @@
 # INSPIRE-Domain-Model-for-Network-Cohort-Studies
 ## Background
-The INSPIRE domain model for network cohort studies was initially funded by [WorldFAIR](https://codata.org/initiatives/decadal-programme2/worldfair/).
+[INSPIRE](https://aphrc.org/inspire/) is the Implementation Network for Sharing Population Information from Research Entities. The INSPIRE domain model for network cohort studies was initially funded by [WorldFAIR](https://codata.org/initiatives/decadal-programme2/worldfair/).
 
 <img width="404" alt="image" src="https://github.com/jaygee-on-github/INSPIRE-Domain-Model-for-Network-Cohort-Studies/assets/137520893/1bf67dae-3073-45e0-bb8e-06342457836d">
 
