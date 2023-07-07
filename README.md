@@ -13,7 +13,13 @@ WP7, in turn, contributes to WP2 -- the [Cross-Domain Interoperability Framework
 ## Scope
 Using schemas from schema.org with JSON-LD, INSPIRE has constructed a domain model that is being used to conduct a ***network cohort study***. In a network cohort study the data stays at home with ministries and/or universities and/or research organizations that own the data while the ***study definition*** and one or more ***data analysis workbenches*** that execute the study definition are shared.
 
-In the INSPIRE domain model, the study definition has two parts. In the first part called the ***study scope*** independent and dependent variables are enumerated. Independent variables are exposures (external exposome), risk factors (internal exposome) and interventions (medical and/or public health). Dependent variables are health conditions. In the second part of the model called the ***study design***, the independent and dependent variables are mapped to ***target*** and ***outcome*** cohorts in that order.
+In the INSPIRE domain model, the study definition has two parts. In the first part called the ***study scope*** independent and dependent variables are enumerated. Independent variables are exposures (external exposome), risk factors (internal exposome) and interventions (medical and/or public health). Dependent variables are health conditions. 
+
+<img width="481" alt="image" src="https://github.com/jaygee-on-github/INSPIRE-Domain-Model-for-Network-Cohort-Studies/assets/137520893/0c041bff-d81c-4ef4-b0d2-e24f140da50d">
+
+*From [Use of the exposome in the practice of epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025320/#:~:text=Three%20domains%20of%20the%20exposome,specific%20external%20and%20general%20external.)*
+
+In the second part of the model called the ***study design***, the independent and dependent variables are mapped to ***target*** and ***outcome*** cohorts in that order.
 
 The study definition, in turn, interfaces with one or more data analysis workbenches. The workbenches run the study. They are platform independent which means that the workbenches can run in multiple cloud environments and/or locally in an organization's private network.
 
