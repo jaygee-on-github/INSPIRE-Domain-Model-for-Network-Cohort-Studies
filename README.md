@@ -32,6 +32,7 @@ Right now the INSPIRE domain model works with the [OHDSI data analysis workbench
 ### Profiles
 The upper model is comparable to an outline of the domain model for network studies. Based on the upper model, there are ***profiles*** -- one for each data analysis workbench. *A profile individualizes the upper model so it can interface with a target workbench.* Currently, INSPIRE is in the process of completing a profile that goes with the OHDSI data analysis workbench. At the same time INSPIRE and the I-DAIR data analysis workbench group are beginning a second profile in part to test if there are any gaps in the upper model and, in part, to grow the analysis capabilities of INSPIRE. 
 
+### Issues
 One issue that has surfaced with the upper model is the support that it provides for the reuse of machine learning models for predictive analysis across sites (e.g., [federated learning](https://en.wikipedia.org/wiki/Transfer_learning) and/or [transfer learning](https://en.wikipedia.org/wiki/Federated_learning#)).
 
 A second issue that has surfaced is the format of an indicators collection. Typically, a study, be it predictive or causal, includes a descriptive component. The descriptive component produces indicator collections in the service of describing incidence, intervention pathways and other pathways between the target population and its outcomes.
