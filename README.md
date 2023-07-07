@@ -19,14 +19,16 @@ In the INSPIRE domain model, the study definition has two parts. In the first pa
 
 *From [Use of the exposome in the practice of epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025320/#:~:text=Three%20domains%20of%20the%20exposome,specific%20external%20and%20general%20external.)*
 
-In the second part of the model called the ***study design***, the independent and dependent variables are mapped to ***target*** and ***outcome*** cohorts in that order. Using these cohorts as building blocks, several types of analyses are supported including characterization, causal analyses of the effects of clinical and/or public health interventions and patient-level prediction.
+In the second part of the model called the ***study design***, the independent and dependent variables are mapped to ***target*** and ***outcome*** cohorts in that order. 
 
-The study definition, in turn, interfaces with one or more data analysis workbenches. The workbenches run the study. They are platform independent which means that the workbenches can run in multiple cloud environments and/or locally in an organization's private network.
+The study definition, in turn, interfaces with one or more data analysis workbenches. Using these cohort definitions as building blocks, they may conduct several types of analyses including characterization, causal analyses of the effects of clinical and/or public health interventions and patient-level prediction. 
+
+The workbenches run the study. They are platform independent which means that the workbenches can run in multiple cloud environments and/or locally in an organization's private network.
 
 Right now the INSPIRE domain model works with the [OHDSI data analysis workbench](https://www.ohdsi.org/software-tools/), sharing a ***machine actionable*** representation of the study definition with other research entities in the network study. A workbench runs this representation, conducting a study on top of data that has been formatted in line with the [OMOP CDM](https://www.ohdsi.org/data-standardization/). There is a second data analysis workbench called [I-DAIR](https://www.i-dair.org) that is learning to run on top of an OMOP CDM. It is an African-led initiative. It is more ***codeless*** than the OHDSI data analysis workbench. The INSPIRE domain model is learning to interface with the I-DAIR data analysis workbench too.
 ## Upper Model 
-#### *WHO Integrated Disease Surveillance and Response (IDSR) use case*
 ![MedicalObservationalStudy-19](https://github.com/jaygee-on-github/INSPIRE-Domain-Model-for-Network-Cohort-Studies/assets/137520893/5566c336-1847-45dc-9fdf-961da00c14e5)
+*WHO Integrated Disease Surveillance and Response (IDSR) use case*
 ### Profiles
 The upper model is comparable to an outline of the domain model for network studies. Based on the upper model, there are ***profiles*** -- one for each data analysis workbench. *A profile individualizes the upper model so it can interface with a target workbench.* Currently, INSPIRE is in the process of completing a profile that goes with the OHDSI data analysis workbench. At the same time INSPIRE and the I-DAIR data analysis workbench group are beginning a second profile in part to test if there are any gaps in the upper model and, in part, to grow the analysis capabilities of INSPIRE. 
 
