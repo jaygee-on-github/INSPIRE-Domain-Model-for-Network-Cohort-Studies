@@ -19,7 +19,7 @@ In the INSPIRE domain model, the study definition has two parts. In the first pa
 
 *From [Use of the exposome in the practice of epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5025320/#:~:text=Three%20domains%20of%20the%20exposome,specific%20external%20and%20general%20external.)*
 
-In the second part of the model called the ***study design***, the independent and dependent variables are mapped to ***target*** and ***outcome*** cohorts in that order.
+In the second part of the model called the ***study design***, the independent and dependent variables are mapped to ***target*** and ***outcome*** cohorts in that order. Using these cohorts as building blocks, several types of analyses are supported including characterization, causal analyses of the effects of clinical and/or public health interventions and patient-level prediction.
 
 The study definition, in turn, interfaces with one or more data analysis workbenches. The workbenches run the study. They are platform independent which means that the workbenches can run in multiple cloud environments and/or locally in an organization's private network.
 
