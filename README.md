@@ -1,7 +1,7 @@
+**Disambiguation**: *See [this GitHub](https://github.com/tathagatabhattacharjee/Generic-IDSR-COVID-19-data-to-OMOP-6.0-under-INSPIRE-Project) for the project that creates synthetic IDSR data and ETLs it into an OMOP CDM. And see [this GitHub](https://github.com/jaygee-on-github/APHRC-LSHTM-IDSR-Project) for a project that instantiates the INSPIRE domain model for use in an IDSR MedicalObservationalStudy.*
+
 # INSPIRE-Domain-Model-for-Network-Cohort-Studies
 ## Background
-**Disambiguation**: *See [this GitHub](https://github.com/tathagatabhattacharjee/Generic-IDSR-COVID-19-data-to-OMOP-6.0-under-INSPIRE-Project) for the project that creates synthetic IDSR data and ETLs it into an OMOP CDM. And see [this GitHub](https://github.com/jaygee-on-github/APHRC-LSHTM-IDSR-Project) for a project that instantiates the domain model for use in an IDSR MedicalObservationalStudy.*
-
 [INSPIRE](https://aphrc.org/inspire/) is the Implementation Network for Sharing Population Information from Research Entities. The INSPIRE domain model for network cohort studies was initially funded by [WorldFAIR](https://codata.org/initiatives/decadal-programme2/worldfair/).
 
 <img width="404" alt="image" src="https://github.com/jaygee-on-github/INSPIRE-Domain-Model-for-Network-Cohort-Studies/assets/137520893/1bf67dae-3073-45e0-bb8e-06342457836d">
