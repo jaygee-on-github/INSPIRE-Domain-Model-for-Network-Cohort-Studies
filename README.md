@@ -1,4 +1,4 @@
-**Disambiguation**: *See [this GitHub](https://github.com/tathagatabhattacharjee/Generic-IDSR-COVID-19-data-to-OMOP-6.0-under-INSPIRE-Project) for the project that creates synthetic IDSR data and ETLs it into an OMOP CDM. And see [this GitHub](https://github.com/jaygee-on-github/APHRC-LSHTM-IDSR-Project) for a project that instantiates the INSPIRE domain model for use in an IDSR MedicalObservationalStudy.*
+**Disambiguation**: *See [this GitHub](https://github.com/tathagatabhattacharjee/Generic-IDSR-COVID-19-data-to-OMOP-6.0-under-INSPIRE-Project) for the project that creates synthetic IDSR data and ETLs it into an OMOP CDM. And see [this GitHub](https://github.com/jaygee-on-github/APHRC-LSHTM-IDSR-Project) for a project that instantiates the INSPIRE domain model for use in an IDSR (Integrated Disease Surveillance and Response) MedicalObservationalStudy.*
 
 # INSPIRE-Domain-Model-for-Network-Cohort-Studies
 ## Background
