@@ -1,0 +1,11 @@
+{
+  "@id": "person:TaylorA",
+  "@type": "schema:Person",
+  "honorificSuffix": [
+    "PhD"
+  ],
+  "jobTitle": [
+    "Research Scientist"
+  ],
+  "name": "Amelia Taylor"
+}

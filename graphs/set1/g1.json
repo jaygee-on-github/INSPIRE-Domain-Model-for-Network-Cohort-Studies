@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "vocab": "http://schema.org/",
+    "study": "https://covid19.ohdsi.app/study/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "person": "https://covid19.ohdsi.app/author/",
+    "snomed": "http://snomed.info/id/",
+    "concept": "http://data.ohdsi.org/concept/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "ohdsi": "http://data.ohdsi.org/",
+    "covid19": "https://covid19.ohdsi.app/",
+    "aphrc": "https://aphrc.org/"
+  },
+  "@id": "dataset:coordinatingcenterCDM",
+  "@type": "schema:Dataset",
+  "identifier": "<nil>",
+  "name": "Coordinating Center OMOP CDM",
+  "spatialCoverage": {
+    "@type": "schema:Place",
+    "geo": {
+      "@type": "schema:GeoShape",
+      "polygon": "<nil>"
+    }
+  },
+  "temporalCoverage": "<nil>",
+  "ohdsi:investigator": [
+    "person:MuyingoS"
+  ],
+  "ohdsi:institution": {
+    "@type": "schema:Organization",
+    "identifier": "<nil>",
+    "name": "Mumbas"
+  },
+  "hasPart": [
+    "dataset:ConditionOccurrence",
+    "dataset:Person"
+  ]
+}
