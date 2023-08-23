@@ -1,6 +1,6 @@
 {
   "@context": {
-    "vocab": "http://schema.org/",
+    "@vocab": "http://schema.org/",
     "study": "https://covid19.ohdsi.app/study/",
     "owl": "http://www.w3.org/2002/07/owl#",
     "person": "https://covid19.ohdsi.app/author/",
@@ -8,6 +8,8 @@
     "concept": "http://data.ohdsi.org/concept/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "ohdsi": "http://data.ohdsi.org/",
+    "funder": "ohdsi:institution",
+    "Organization": "ohdsi:Organization",
     "covid19": "https://covid19.ohdsi.app/",
     "aphrc": "https://aphrc.org/"
   },
@@ -28,14 +30,14 @@
     "@type": "Place",
     "geo": {
       "@type": "GeoShape",
-      "polygon": "POLYGON ((36.75619125366211 -1.2896266404243057, 36.75567626953125 -1.3132616190283802, 36.770782470703125 -1.3270839463950568, 36.79441452026367 -1.3245236198232742, 36.8027400970459 -1.3052075354426915, 36.82107925415039 -1.2954507410663528, 36.84144973754883 -1.2560255094081278, 36.82210922241211 -1.2119234504743235, 36.811580657958984 -1.193866634506192, 36.775054931640625 -1.1946209558237755, 36.75619125366211 -1.2896266404243057))"
+      "polygon": "POLYGON ((36.75619125366211 -1.2896266404243057,36.775054931640625 -1.1946209558237755, 36.75619125366211 -1.2896266404243057))"
     }
   },
   "temporalCoverage": "2022-01-01/2022-06-30",
   "ohdsi:investigator": [
     "person:MuyingoS"
   ],
-  "ohdsi:institution": {
+  "ohdsi:institution":  {
     "@type": "Organization",
     "identifier": "https://ror.org/0ksfjgq98",
     "name": "Mumbas"
