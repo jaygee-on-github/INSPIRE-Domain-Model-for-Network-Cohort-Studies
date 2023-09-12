@@ -22,20 +22,23 @@ orig code
 
 ## Voc References
 
-* [@vocab](http://schema.org/)   redirects to https://schema.org and follows domain redirection rules for this namespace
-    * [https context](https://schema.org/version/latest/schemaorg-current-https.jsonld)
-* [study](https://covid19.ohdsi.app/study/)   domain does not resolve
-* [owl](http://www.w3.org/2002/07/owl#)    Valid
-* [person](https://covid19.ohdsi.app/author/)   domain does not resolve
-* [snomed](http://snomed.info/id/)  bad url form?
-* [concept](http://data.ohdsi.org/concept/)   404 HTML 
-* [xsd](http://www.w3.org/2001/XMLSchema#) Valid
-* [ohdsi](http://data.ohdsi.org/) HTML based vocabulary representation?
-* [funder](ohdsi:institution)   invalid
-* [Organization](ohdsi:Organization)  invalid
-* [covid19](https://covid19.ohdsi.app/) domain does not resolve
-* [aphrc](https://aphrc.org/) HTML page
-  
+
+| URL                                                                               | comments |
+|-----------------------------------------------------------------------------------| --- |
+| [schema](http://schema.org/)                                                      | redirects to https://schema.org and follows domain redirection rules for this namespace |
+| [study](https://covid19.ohdsi.app/study/)                                         | domain does not resolve |
+| [owl](http://www.w3.org/2002/07/owl#)                                             | Valid |
+| [person](https://covid19.ohdsi.app/author/)                                       | domain does not resolve |
+| [snomed](http://snomed.info/id/)                                                  | bad url form? |
+| [concept](http://data.ohdsi.org/concept/)                                         | 404 HTML |
+| [xsd](http://www.w3.org/2001/XMLSchema#)                                          | Valid |
+| [ohdsi](http://data.ohdsi.org/)                                                   | HTML based vocabulary representation? |
+| [funder](ohdsi:institution)                                                       | invalid |
+| [Organization](ohdsi:Organization)                                                | invalid |
+| [covid19](https://covid19.ohdsi.app/)                                             | domain does not resolve |
+| [aphrc](https://aphrc.org/)                                                       | HTML page |
+
+[schema.org https context](https://schema.org/version/latest/schemaorg-current-https.jsonld)
 
 ## Making Equivalent Classes
 
