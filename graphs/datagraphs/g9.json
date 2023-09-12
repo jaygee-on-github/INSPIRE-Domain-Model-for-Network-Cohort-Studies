@@ -1,4 +1,5 @@
 {
+  "@context": "file://context.jsonld",
   "@id": "IDSRCovid19PrevalenceAndPredictionStudy/design",
   "@type": "schema:MedicalObservationalStudyDesign",
   "identifier": "<nil>",

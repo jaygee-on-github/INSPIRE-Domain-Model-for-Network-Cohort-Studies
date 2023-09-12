@@ -1,4 +1,5 @@
 {
+  "@context": "file://context.jsonld",
   "@id": "person:MuyingoS",
   "@type": "schema:Person",
   "schema:mainEntityOfPage": "<nil>",
