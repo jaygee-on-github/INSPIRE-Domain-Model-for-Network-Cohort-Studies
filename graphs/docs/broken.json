@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@id": "IDSRCovid19PrevalenceAndPredictionStudy/design",
+  "@type": "schema:MedicalObservationalStudyDesign",
+  "identifier":   {
+        "@id": "https://doi.org/10.5066/F7VX0DMQ",
+        "@type": "PropertyValue",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "value": "doi:10.5066/F7VX0DMQ",
+        "url": "https://doi.org/10.5066/F7VX0DMQ"
+  },
+  "url": "https://example.org/id/123",
+  "ohdsi:dateModified": "2020-03-28",
+  "ohdsi:license": "open-source license",
+  "ohdsi:designVersion": "5.4",
+  "aphrc:protocol": [
+    {
+      "@type": "ohdsi:IncidenceRateAnalysis",
+      ...
+      },
+      "ohdsi:stratifyCriteria": {
+        "@type": "schema:ItemList",
+        "url": "http://51.105.33.160:9090/Atlas/#/iranalysis/2/definition",
+        "itemListElement": [
+         ...
+          {
+            "@type": "schema:ListItem",
+            "item": {
+              "@type": "schema:MedicalIndication",
+              "description": "Pre-existing condition: asthma",
+              "code": {
+                "@type": "schema:MedicalCode",
+                "codeValue": "195967001",
+                "codingSystem": "SNOMED",
+                "sameAs": "http://snomed.info/id/195967001"
+              }
+            }
+          }
+          ...
+        ]
+      }
+    },
+     ...
+    }
+  ]
+}
