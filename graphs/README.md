@@ -108,3 +108,9 @@ Just a few notes on exploring this graph.
 
 ### oxigraph
 
+Loading the triples from JSON-LD cli into oxigraph
+
+jsonld format -q g2.json |  curl -i -X POST  -H 'Content-Type:text/x-nquads'   --data-binary @-  http://0.0.0.0:7878/store
+
+
+

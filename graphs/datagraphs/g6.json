@@ -1,18 +1,18 @@
 {
   "@context": "file://context.jsonld",
   "@id": "concept:317009",
-  "@type": "schema:MedicalRiskFactor",
+  "@type": "MedicalRiskFactor",
   "increasesRiskOf": {
-    "@type": "schema:MedicalCondition",
+    "@type": "MedicalCondition",
     "code": {
-      "@type": "schema:MedicalCode",
+      "@type": "MedicalCode",
       "codeValue": "840539006",
       "codingSystem": "SNOMED",
       "sameAs": "http://snomed.info/id/840539006"
     }
   },
   "code": {
-    "@type": "schema:MedicalCode",
+    "@type": "MedicalCode",
     "codeValue": "195967001",
     "codingSystem": "SNOMED",
     "sameAs": "http://snomed.info/id/195967001"

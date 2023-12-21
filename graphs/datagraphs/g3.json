@@ -1,7 +1,7 @@
 {
   "@context": "file://context.jsonld",
   "@id": "dataset:mubasCDM",
-  "@type": "schema:Dataset",
+  "@type": "Dataset",
   "identifier": "<nil>",
   "name": "Malawi/MUBAS OMOP CDM",
   "version": "5.4",
@@ -19,24 +19,24 @@
     "Specimen"
   ],
   "spatialCoverage": {
-    "@type": "schema:Place",
+    "@type": "Place",
     "geo": {
-      "@type": "schema:GeoShape",
+      "@type": "GeoShape",
       "polygon": "<nil>"
     }
   },
   "temporalCoverage": "<nil>",
   "ohdsi:investigator": [
-    "person:TaylorA"
+      "TaylorA"
   ],
   "ohdsi:institution": {
-    "@type": "schema:Organization",
+    "@type": "Organization",
     "identifier": "<nil>",
     "name": "Mubas"
   },
   "hasPart": [
     {
-      "@type": "schema:Dataset",
+      "@type": "Dataset",
       "name": "OMOP CDM Person table",
       "description": "OMOP CDM Person table for Malawi IDSR data",
       "variableMeasured": [
@@ -72,12 +72,12 @@
             "M"
           ],
           "subjectOf": {
-            "@type": "schema:CreativeWork",
+            "@type": "CreativeWork",
             "name": "WHO IDSR Africa",
             "description": "Techncal Guidelines for Integrated Disease Surveillance and Response in the WHO African Region",
             "url": "https://apps.who.int/iris/bitstream/handle/10665/312317/WHO-AF-WHE-CPI-01-2019-eng.pdf",
             "hasPart": {
-              "@type": "schema:CreativeWork",
+              "@type": "CreativeWork",
               "name": "Annex 2F",
               "description": "IDSR immediate case-based reporting form."
             }
@@ -96,42 +96,42 @@
       ]
     },
     {
-      "@type": "schema:Dataset",
+      "@type": "Dataset",
       "name": "OMOP CDM observation table",
       "description": "OMOP CDM observation table for Malawi IDSR data"
     },
     {
-      "@type": "schema:Dataset",
+      "@type": "Dataset",
       "name": "specimen",
       "description": "OMOP CDM specimen table for Malawi IDSR data"
     },
     {
-      "@type": "schema:Dataset",
+      "@type": "Dataset",
       "name": "visit_occurrence",
       "description": "OMOP CDM visit occurrence table for Malawi IDSR data"
     },
     {
-      "@type": "schema:Dataset",
+      "@type": "Dataset",
       "name": "care_site",
       "description": "OMOP CDM care site table for Malawi IDSR data"
     },
     {
-      "@type": "schema:Dataset",
+      "@type": "Dataset",
       "name": "condition_occurrence",
       "description": "OMOP CDM condition occurrence table for Malawi IDSR data"
     },
     {
-      "@type": "schema:Dataset",
+      "@type": "Dataset",
       "name": "drug_exposure",
       "description": "OMOP CDM drug exposure table for Malawi IDSR data"
     },
     {
-      "@type": "schema:Dataset",
+      "@type": "Dataset",
       "name": "location",
       "description": "OMOP CDM location table for Malawi IDSR data"
     },
     {
-      "@type": "schema:Dataset",
+      "@type": "Dataset",
       "name": "measurement",
       "description": "OMOP CDM measurement table for Malawi IDSR data"
     }

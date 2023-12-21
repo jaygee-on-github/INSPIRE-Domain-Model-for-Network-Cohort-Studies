@@ -22,7 +22,7 @@
   },
   "temporalCoverage": "2022-01-01/2022-06-30",
   "ohdsi:investigator": [
-    "person:MuyingoS"
+    { "person:author" : "MuyingoS"}
   ],
   "ohdsi:institution":  {
     "@type": "Organization",
@@ -30,7 +30,13 @@
     "name": "Mumbas"
   },
   "hasPart": [
-    "dataset:ConditionOccurrence",
-    "dataset:Person"
+    {
+       "@type": "CreativeWork",
+       "name": "ConditionOccurrence"
+    },
+     {
+       "@type": "CreativeWork",
+       "name": "Person"
+    }
   ]
 }

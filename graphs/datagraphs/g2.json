@@ -1,13 +1,13 @@
 {
   "@context": "file://context.jsonld",
   "@id": "creativework:IDSRproject",
-  "@type": "schema:CreativeWork",
-  "author": [
-    "person:MuyingoS",
-    "person:TaylorA"
+  "@type": "CreativeWork",
+  "person:author": [
+    "MuyingoS",
+    "TaylorA"
   ],
-  "discussionUrl": "<nil>",
-  "publication": "<nil>",
+  "discussionUrl": "",
+  "publication": "",
   "dateCreated": "2023-03-26"
 }
 

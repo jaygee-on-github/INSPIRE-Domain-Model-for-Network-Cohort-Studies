@@ -1,9 +1,9 @@
 {
   "@context": "file://context.jsonld",
   "@id": "concept:37311061",
-  "@type": "schema:MedicalCondition",
+  "@type": "MedicalCondition",
   "code": {
-    "@type": "schema:MedicalCode",
+    "@type": "MedicalCode",
     "codeValue": "840539006",
     "codingSystem": "SNOMED",
     "sameAs": "http://snomed.info/id/840539006"
