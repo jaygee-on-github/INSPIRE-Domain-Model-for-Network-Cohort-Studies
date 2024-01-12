@@ -27,7 +27,7 @@
   },
   "temporalCoverage": "<nil>",
   "ohdsi:investigator": [
-      "TaylorA"
+    "https://example.org/id/person/TaylorA"
   ],
   "ohdsi:institution": {
     "@type": "Organization",

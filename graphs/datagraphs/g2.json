@@ -3,8 +3,8 @@
   "@id": "https://example.org/id/creativework/IDSRproject",
   "@type": "CreativeWork",
   "person:author": [
-    "MuyingoS",
-    "TaylorA"
+    "https://example.org/id/person/MuyingoS",
+    "https://example.org/id/person/TaylorA"
   ],
   "discussionUrl": "",
   "publication": "",

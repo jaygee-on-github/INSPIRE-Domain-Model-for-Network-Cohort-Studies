@@ -22,7 +22,7 @@
   },
   "temporalCoverage": "2022-01-01/2022-06-30",
   "ohdsi:investigator": [
-    { "person:author" : "MuyingoS"}
+    { "person:author" : "https://example.org/id/person/MuyingoS"}
   ],
   "ohdsi:institution":  {
     "@type": "Organization",

@@ -110,7 +110,49 @@ Just a few notes on exploring this graph.
 
 Loading the triples from JSON-LD cli into oxigraph
 
+```bash
 jsonld format -q g2.json |  curl -i -X POST  -H 'Content-Type:text/x-nquads'   --data-binary @-  http://0.0.0.0:7878/store
+```
 
+### empty triplestore (be careful)
 
+```bash
+curl -i -X POST -H "Content-Type:application/sparql-update" -d "CLEAR ALL"   http://localhost:7878/update
+```
 
+### ID updates
+
+study:IDSRCovid19PrevalenceAndPredictionStudy
+dataset:coordinatingcenterCDM
+https://doi.org/10.5066/F7VX0DMQ
+creativework:IDSRproject
+dataset:mubasCDM
+concept:37311061
+concept:201820
+concept:317009
+person:MuyingoS
+person:TaylorA
+IDSRCovid19PrevalenceAndPredictionStudy/design
+
+sed -i 's/"INPUT"/"REPLACEMENT"/g' *.json
+
+jq '. = (. | gsub("\"INPUT\""; "\"REPLACEMENT\""))' *.json > updated_files/*.json
+
+### URN patterns
+
+- https://example.org/id/study/IDSRCovid19PrevalenceAndPredictionStudy
+- https://example.org/id/dataset/coordinatingcenterCDM
+  - this is used in g10 as an object literal
+- https://example.org/id/creativework/IDSRproject
+  - this is used in g10 as an object literal
+- https://example.org/id/dataset/mubasCDM
+- https://example.org/id/concept/37311061
+- https://example.org/id/concept/201820
+- https://example.org/id/concept/317009
+- https://example.org/id/person/MuyingoS
+- https://example.org/id/person/TaylorA
+- https://example.org/id/design/IDSRCovid19PrevalenceAndPredictionStudy
+
+Need to look at strings that should be IDs like
+
+"person:author" : "MuyingoS" needing to have an @id https://example.org/id/person/MuyingoS
