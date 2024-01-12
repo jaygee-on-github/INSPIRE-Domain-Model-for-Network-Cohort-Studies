@@ -158,3 +158,7 @@ jq '. = (. | gsub("\"INPUT\""; "\"REPLACEMENT\""))' *.json > updated_files/*.jso
 Need to look at strings that should be IDs like
 
 "person:author" : "MuyingoS" needing to have an @id https://example.org/id/person/MuyingoS
+
+
+### graph viz to date
+
