@@ -120,6 +120,8 @@ jsonld format -q g2.json |  curl -i -X POST  -H 'Content-Type:text/x-nquads'   -
 curl -i -X POST -H "Content-Type:application/sparql-update" -d "CLEAR ALL"   http://localhost:7878/update
 ```
 
+then you can use the looploader.sh to reload.
+
 ### ID updates
 
 study:IDSRCovid19PrevalenceAndPredictionStudy

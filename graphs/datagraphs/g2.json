@@ -6,6 +6,15 @@
     "https://example.org/id/person/MuyingoS",
     "https://example.org/id/person/TaylorA"
   ],
+  "author": [{
+      "@id": "https://example.org/id/person/MuyingoS",
+      "@type": "Person"
+    },
+    {
+      "@id": "https://example.org/id/person/TaylorA",
+      "@type": "Person"
+    }
+  ],
   "discussionUrl": "",
   "publication": "",
   "dateCreated": "2023-03-26"

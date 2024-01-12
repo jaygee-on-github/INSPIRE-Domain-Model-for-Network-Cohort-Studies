@@ -33,26 +33,41 @@
     ]
   ],
   "mainEntityOfPage": "<nil>",
-  "studyDesign": "https://example.org/id/design/IDSRCovid19PrevalenceAndPredictionStudy",
+  "studyDesign": ["https://example.org/id/design/IDSRCovid19PrevalenceAndPredictionStudy",
+    {
+      "@type": "MedicalObservationalStudyDesign",
+      "@id": "https://example.org/id/design/IDSRCovid19PrevalenceAndPredictionStudy"
+    }
+  ],
   "status": [
     "ohdsi:ResultsAvailable"
   ],
-  "healthCondition": [
-    "https://example.org/id/concept/37311061"
+  "healthCondition": [{
+      "@type": "MedicalCondition",
+      "@id": "https://example.org/id/concept/37311061"
+    }
   ],
-  "studySubject": [
-    "https://example.org/id/concept/201820",
-    "https://example.org/id/concept/317009"
+  "studySubject": [{
+      "@type": "MedicalRiskFactor",
+      "@id": "https://example.org/id/concept/201820"},
+    { "@type": "MedicalRiskFactor",
+      "@id": "https://example.org/id/concept/317009"}
   ],
-  "subjectOf": [
-    "https://example.org/id/creativework/IDSRproject"
+  "subjectOf": [{
+      "@type": "CreativeWork",
+      "@id": "https://example.org/id/creativework/IDSRproject"
+    }
   ],
   "potentialAction": [
     {
       "@type": "UpdateAction",
       "name": "MedicalObservationalStudy Execute Action",
       "agent": [
-        "https://example.org/id/person/MuyingoS"
+        "https://example.org/id/person/MuyingoS",
+        {
+          "@id": "https://example.org/id/person/MuyingoS",
+          "@type": "Person"
+        }
       ],
       "instrument": {
         "@type": "ItemList",
@@ -111,9 +126,14 @@
           "contentType": "text/plain"
         }
       ],
-      "object": [
-        "https://example.org/id/dataset/mubasCDM",
-        "https://example.org/id/dataset/coordinatingcenterCDM"
+      "object": [ {
+          "@id": "https://example.org/id/dataset/mubasCDM",
+          "@type": "Dataset"
+        },
+        {
+          "@id": "https://example.org/id/dataset/coordinatingcenterCDM",
+          "@type": "Dataset"
+        }
       ],
       "result": {
         "@type": "ItemList",
@@ -157,7 +177,10 @@
       "@type": "updateAction",
       "name": "MedicalObservationalStudy CDM ETL Action",
       "result": [
-        "https://example.org/id/dataset/mubasCDM"
+       {
+          "@id": "https://example.org/id/dataset/mubasCDM",
+          "@type": "Dataset"
+        }
       ],
       "object": {
         "@type": "Dataset",

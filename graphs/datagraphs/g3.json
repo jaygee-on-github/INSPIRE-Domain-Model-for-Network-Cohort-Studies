@@ -29,6 +29,12 @@
   "ohdsi:investigator": [
     "https://example.org/id/person/TaylorA"
   ],
+  "author": [
+    {
+      "@id": "https://example.org/id/person/TaylorA",
+      "@type": "Person"
+    }
+  ],
   "ohdsi:institution": {
     "@type": "Organization",
     "identifier": "<nil>",
