@@ -1,6 +1,6 @@
 {
   "@context": "file://context.jsonld",
-  "@id": "dataset:coordinatingcenterCDM",
+  "@id": "https://example.org/id/dataset/coordinatingcenterCDM",
   "@type": "Dataset",
   "identifier": [
     "urn:isbn:978-0-394-52137-1",

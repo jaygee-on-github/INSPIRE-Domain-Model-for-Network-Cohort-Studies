@@ -1,6 +1,6 @@
 {
   "@context": "file://context.jsonld",
-  "@id": "study:IDSRCovid19PrevalenceAndPredictionStudy",
+  "@id": "https://example.org/id/study/IDSRCovid19PrevalenceAndPredictionStudy",
   "@type": "MedicalObservationalStudy",
   "identifier": "<nil>",
   "name": "Prevalence and Prediction of COVID-19 By Subgroup across several SSA countries: a Network Study",
@@ -33,26 +33,26 @@
     ]
   ],
   "mainEntityOfPage": "<nil>",
-  "studyDesign": "IDSRCovid19PrevalenceAndPredictionStudy/design",
+  "studyDesign": "https://example.org/id/design/IDSRCovid19PrevalenceAndPredictionStudy",
   "status": [
     "ohdsi:ResultsAvailable"
   ],
   "healthCondition": [
-    "concept:37311061"
+    "https://example.org/id/concept/37311061"
   ],
   "studySubject": [
-    "concept:201820",
-    "concept:317009"
+    "https://example.org/id/concept/201820",
+    "https://example.org/id/concept/317009"
   ],
   "subjectOf": [
-    "creativework:IDSRproject"
+    "https://example.org/id/creativework/IDSRproject"
   ],
   "potentialAction": [
     {
       "@type": "UpdateAction",
       "name": "MedicalObservationalStudy Execute Action",
       "agent": [
-        "person:MuyingoS"
+        "https://example.org/id/person/MuyingoS"
       ],
       "instrument": {
         "@type": "ItemList",
@@ -112,8 +112,8 @@
         }
       ],
       "object": [
-        "dataset:mubasCDM",
-        "dataset:coordinatingcenterCDM"
+        "https://example.org/id/dataset/mubasCDM",
+        "https://example.org/id/dataset/coordinatingcenterCDM"
       ],
       "result": {
         "@type": "ItemList",
@@ -157,7 +157,7 @@
       "@type": "updateAction",
       "name": "MedicalObservationalStudy CDM ETL Action",
       "result": [
-        "dataset:mubasCDM"
+        "https://example.org/id/dataset/mubasCDM"
       ],
       "object": {
         "@type": "Dataset",

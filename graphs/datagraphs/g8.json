@@ -1,6 +1,6 @@
 {
   "@context": "file://context.jsonld",
-  "@id": "person:TaylorA",
+  "@id": "https://example.org/id/person/TaylorA",
   "@type": "Person",
   "honorificSuffix": [
     "PhD"

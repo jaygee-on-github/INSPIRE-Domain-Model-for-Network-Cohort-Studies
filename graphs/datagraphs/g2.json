@@ -1,6 +1,6 @@
 {
   "@context": "file://context.jsonld",
-  "@id": "creativework:IDSRproject",
+  "@id": "https://example.org/id/creativework/IDSRproject",
   "@type": "CreativeWork",
   "person:author": [
     "MuyingoS",

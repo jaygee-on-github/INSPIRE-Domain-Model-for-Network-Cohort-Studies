@@ -1,6 +1,6 @@
 {
   "@context": "file://context.jsonld",
-  "@id": "person:MuyingoS",
+  "@id": "https://example.org/id/person/MuyingoS",
   "@type": "Person",
   "mainEntityOfPage": "<nil>",
   "honorificSuffix": [

@@ -1,6 +1,6 @@
 {
   "@context": "file://context.jsonld",
-  "@id": "dataset:mubasCDM",
+  "@id": "https://example.org/id/dataset/mubasCDM",
   "@type": "Dataset",
   "identifier": "<nil>",
   "name": "Malawi/MUBAS OMOP CDM",

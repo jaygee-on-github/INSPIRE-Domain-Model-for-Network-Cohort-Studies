@@ -1,6 +1,6 @@
 {
   "@context": "file://context.jsonld",
-  "@id": "concept:317009",
+  "@id": "https://example.org/id/concept/317009",
   "@type": "MedicalRiskFactor",
   "increasesRiskOf": {
     "@type": "MedicalCondition",

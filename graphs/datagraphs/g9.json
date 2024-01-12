@@ -1,6 +1,6 @@
 {
   "@context": "file://context.jsonld",
-  "@id": "IDSRCovid19PrevalenceAndPredictionStudy/design",
+  "@id": "https://example.org/id/design/IDSRCovid19PrevalenceAndPredictionStudy",
   "@type": "MedicalObservationalStudyDesign",
   "identifier": "<nil>",
   "url": "<nil>",
